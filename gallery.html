@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" href="index.css">
+	<style type="text/css">
+
+	
+	.kucuk_salatalar-img:hover{
+		border: 1.50px solid rgb(255, 154, 2);
+        width: 13px%;
+	}
+	#salata_cesidi h2{
+
+		font-family: verdana, sans-serif; 
+		font-size: 15px;
+		color: rgb(255,148,0);
+	}
+	#page a{
+		font-family: verdana, sans-serif; 
+		font-size: 15px;
+		color: rgb(255,148,0);
+	}
+	#ana_resim-img{
+		border: 2px solid rgb(255, 154, 2);
+		margin-top: 10px;
+	}
+	</style>
+	<script type="text/javascript">
+		function change(resim,ana_baslik) {
+			var image=document.getElementById('ana_resim-img');
+			document.getElementById('salata_ismi').innerHTML=ana_baslik;
+			image.src=resim;
+			console.log(resim);
+			console.log(ana_baslik);
+
+		}
+		
+	
+	</script>
+</head>
+<body>
+	
+	<div id="main">
+		<div id="banner">
+			<img id="banner-img" src='banner-1.jpg'/>
+		</div>
+		<div id="menu">
+			<ul>
+				<li>
+					<a href="index.html">Home</a>
+				</li>
+				<li>
+					<a href="biyografi.html">Biography</a>
+				</li>
+				<li>
+					<a href="recipes.html">Recipes</a>
+				</li>
+				<li>
+					<a href="spices.html">Spices</a>
+				</li>
+				<li>
+					<a href="gallery.html">Gallery</a>
+				</li>
+				<li>
+					<a href="contact.html">Contact</a>
+				</li>
+		    </ul>
+		</div>
+		<div id="salata_cesidi" align="center">
+				<img src="1.jpg" id="ana_resim-img">
+			<center>
+				<h2 id='salata_ismi'> Italian Salad </h2>
+			</center>
+		</div>	
+		<div class ="kucuk_salatalar">
+			<center>
+				<img class ="kucuk_salatalar-img" src="thumb1.png" onclick="change('1.jpg','İtalian Salad');">
+				<img class ="kucuk_salatalar-img"  src="thumb2.png" onclick="change('2.jpg','Yoghurt Puree with Aubergine ');">		
+				<img class ="kucuk_salatalar-img"  src="thumb3.png" onclick="change('3.jpg','Russian Salad');">
+				<img class= "kucuk_salatalar-img"  src="thumb4.png" onclick="change('4.jpg','Haydari');">
+				<img class= "kucuk_salatalar-img"  src="thumb5.png" onclick="change('5.jpg','Aubergine Salad');">
+				<br>
+				<img class= "kucuk_salatalar-img"  src="thumb6.png" onclick="change('6.jpg','Peach Kebab');">
+				<img class= "kucuk_salatalar-img"  src="thumb7.png" onclick="change('7.jpg','Shepherd Roasting');">
+				<img class= "kucuk_salatalar-img"  src="thumb8.png" onclick="change('8.jpg','Farm Kebab');">
+				<img class= "kucuk_salatalar-img"  src="thumb9.png" onclick="change('9.jpg','Chicken Roasting');">
+				<img class= "kucuk_salatalar-img"  src="thumb10.png" onclick="change('10.jpg','Vegetable Stew');">
+			</center>
+		</div>	
+		<br>
+		<div id="page">
+			<center>
+			<a href="#">[Top of page]</a>
+			</center>
+		</div>	
+	</div>
+</body>
+</html>

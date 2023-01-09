@@ -1,0 +1,151 @@
+		body {
+			background-image: url('pattern.jpg');
+			background-repeat: repeat; 
+		}
+		
+		#main {
+			border:1.50px solid rgb(255,154,2);
+			background-color: rgb(56, 0, 0);
+			width: 50%;
+			margin: auto;
+			padding: 10px;
+		}
+
+		#banner-img {
+			border:1px solid rgb(255,154,2);
+			margin: auto;
+			width: 100%;
+		}
+
+		#menu {
+			border:1px solid rgb(255,154,2);
+			padding-top: 0.5em;
+			padding-bottom:0.5em;
+			background-color: rgb(129, 0, 0);
+			
+		}
+		#menu ul {
+			list-style: none;
+			margin: 0px auto;
+				
+   		}
+
+		#menu li {
+			position: relative;
+			display: inline;
+			margin: 10px;
+		}
+
+		#menu a, #menu a:hover {
+    		text-decoration: none;
+    		outline: 0;
+			color: #f59f1e; 
+			font-weight: bold; 
+   			font-family: Tempus Sans ITC,Tahoma;
+			font-size: 1.5em;
+			
+		}
+
+		#menu a:hover {
+			color: #290101; 
+		}
+
+		.metin {
+			margin-top: 5px;
+			padding: 20px;
+			border:1px solid rgb(127,55,9);
+			background-color: rgb(48,2,3);
+			}
+		.metin h2{
+			color: rgb(255,148,0);
+		}
+		.metin p{
+				color: white;
+		}
+		.metin a{
+				color: rgb(255,148,0);
+				text-decoration:none; 
+		}
+		
+		#suggestion{
+			margin-left: 385px;
+			margin-top: 15px;
+			padding: 20px;
+			margin-bottom: 500px;
+			border:1px solid rgb(127,55,9);
+			background-color: rgb(48,2,3);
+
+		}
+		#suggestion-img{
+
+			width: 80px;
+			margin-left: 120px;
+			
+		}
+		
+		#suggestion ul {
+			list-style: none;
+			margin-left: 80px;
+
+
+   		}
+
+		#suggestion li {
+			
+			position: relative;
+
+		}
+
+		#suggestion a, #suggestion a:hover {
+			color: #f0c3f8;
+			outline: 0;
+			text-decoration:none; 
+			border-bottom:solid 1px orange;
+		}
+
+		#suggestion a:hover {
+			color: #ff9f00;
+		}
+
+		#suggestion h2{
+			color: rgb(255,148,0);	
+		}
+		/*#icerik { 
+			
+    		display: inline-block;
+    		height: 200px;
+    		width: 300px;
+    		margin: 0px;
+			
+		}*/
+		#haberler{
+			float: left;
+			width: 50%;
+			
+		}
+
+    /*div{
+   		font-weight: normal; 
+   		font-family: verdana, sans-serif; 
+		font-size: 14px; 
+ 		
+	}
+
+	div { 
+		
+		margin-left:355px;
+		margin-right:435px;
+		background-color: brown;	
+
+		}
+
+	a{
+		margin-left:155px;
+		color: yellow;
+	}
+	
+
+	}
+	h2{
+		color: orange;
+	}*/
